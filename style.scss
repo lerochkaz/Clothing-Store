@@ -171,19 +171,22 @@ $advHeight: 341px;
 }
 
 .section-box{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 360px;
+    height: 260px;
 }
 
 .section-box:last-of-type{
     margin-top: 30px;
+    width: 1140px;
+    height: 180px;
 }
 
 .section-link{
     display: block;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .designation{
@@ -360,4 +363,132 @@ $advHeight: 341px;
     padding: 103px 0;
 }
 
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+}
 
+.footer-top{
+    height: 448px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/image/background.svg");
+}
+
+.figure-img{
+    width: 96px;
+    margin-bottom: 30px;
+}
+
+.figure-blockquote{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+
+.figure-flex{
+   width: 360px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 230px;
+}
+
+.subscription-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 330px;
+}
+
+.subscription-h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #222224;
+}
+
+.subscription-h3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #222224;
+    margin-bottom: 32px;
+}
+
+.subscription-form{
+    width: 360px;
+    height: 50px;
+    display: flex;
+}
+
+.button-subscribe{
+    background: #E05C6E;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: 100px;
+    border-radius: 0 25px 25px 0;
+    
+}
+
+.input-mail{
+    width: 260px;
+    padding-left: 30px;
+    background: #E1E1E1;
+    border-radius: 25px 0 0 25px;
+}
+
+.bottom-flex{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom{
+    height: 80px;
+    background: #222224;
+}
+
+.text-copyright{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.media-box{
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.media-link{
+    height: 100%;
+    display: block;
+    padding: 5px;
+}
+
+.media-link:last-of-type{
+    padding-right: 0px;
+}
