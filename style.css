@@ -214,6 +214,7 @@
   width: 360px;
   position: relative;
   margin-bottom: 30px;
+  background: #F8F8F8;
 }
 
 .item-heading {
@@ -314,6 +315,29 @@
   line-height: 17px;
   color: #FFFFFF;
   margin-left: 11px;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.button-allProduct {
+  margin: 20px 0 95px 0;
+  background: #F16D7F;
+}
+
+.link-allProduct {
+  display: block;
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 14px 39px;
+  text-align: center;
 }
 
 .advantage {
@@ -431,7 +455,7 @@
 }
 
 .button-subscribe {
-  background: #E05C6E;
+  background: #F16D7F;
   color: #FFFFFF;
   font-family: "Lato";
   font-style: normal;
@@ -448,6 +472,7 @@
   padding-left: 30px;
   background: #E1E1E1;
   border-radius: 25px 0 0 25px;
+  outline: none;
 }
 
 .bottom-flex {
