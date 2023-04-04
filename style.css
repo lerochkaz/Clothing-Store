@@ -511,4 +511,161 @@
 
 .media-link:last-of-type {
   padding-right: 0px;
+}
+
+.registration-flex {
+  display: flex;
+  margin: 64px 230px 96px 230px;
+}
+
+.reg-box {
+  margin-right: 128px;
+}
+
+.header-reg-box {
+  background-color: #F8F3F4;
+  height: 148px;
+}
+
+.header-reg-flex {
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.header-h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+  margin-left: 230px;
+}
+
+.input-style {
+  display: block;
+  width: 360px;
+  height: 45px;
+  border: 1px solid #B1B1B1;
+  padding-left: 17px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  line-height: 40px;
+  outline: none;
+}
+
+.input-style::-moz-placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.input-style::placeholder {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+}
+
+.lable-txt {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  margin-top: 31px;
+  margin-bottom: 33px;
+}
+
+.radio-style {
+  margin-right: 10px;
+  width: 17px;
+  height: 17px;
+  vertical-align: middle;
+}
+
+.lable-txt:last-of-type .radio-style {
+  margin-left: 20px;
+}
+
+.leg-style {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.fieldset-margin {
+  margin-top: 31px;
+  margin-bottom: 33px;
+}
+
+.input-margin {
+  margin-top: 20px;
+}
+
+.password-comment {
+  display: block;
+  width: 360px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  margin-top: 15px;
+  margin-bottom: 39px;
+}
+
+.button-join {
+  background-color: #F16D7F;
+}
+
+.button-join-txt {
+  color: #FFFFFF;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 16px 29px;
+}
+
+.button-join-txt::after {
+  padding-left: 20px;
+  content: url("/image/arrow.svg");
+}
+
+.perks-style {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.perks-txt {
+  margin: 21px 0;
+}
+
+.perks-li {
+  margin: 16px 0;
+  list-style-type: none;
+}
+
+.perks-li::before {
+  padding-right: 22px;
+  content: url("/image/tick.svg");
 }/*# sourceMappingURL=style.css.map */

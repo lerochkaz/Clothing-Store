@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav-flex">
+          <ul class="nav-header">
+            <li class="nav-element">
+              <a href="index.html"><img src="image/logo.svg" alt="logo" /></a>
+            </li>
+            <li class="nav-element">
+              <a href="#"><img src="image/search.svg" alt="search" /></a>
+            </li>
+          </ul>
+          <ul class="nav-header">
+            <li class="nav-element position-rel">
+              <a href="#"><img src="image/menu.svg" alt="menu" /></a>
+              <div class="mega-box">
+                <div class="box-header">MENU</div>
+                <div class="mega-item">
+                  <p class="item-header">MAN</p>
+                  <a href="#" class="menu-link">Accessories</a>
+                  <a href="#" class="menu-link">Bags</a>
+                  <a href="#" class="menu-link">Denim</a>
+                  <a href="#" class="menu-link">T-Shirts</a>
+                </div>
+                <div class="mega-item">
+                  <p class="item-header">WOMAN</p>
+                  <a href="#" class="menu-link">Accessories</a>
+                  <a href="#" class="menu-link">Jackets & Coats</a>
+                  <a href="#" class="menu-link">Polos</a>
+                  <a href="#" class="menu-link">T-Shirts</a>
+                  <a href="#" class="menu-link">Shirts</a>
+                </div>
+                <div class="mega-item">
+                  <p class="item-header">KIDS</p>
+                  <a href="#" class="menu-link">Accessories</a>
+                  <a href="#" class="menu-link">Jackets & Coats</a>
+                  <a href="#" class="menu-link">Polos</a>
+                  <a href="#" class="menu-link">T-Shirts</a>
+                  <a href="#" class="menu-link">Shirts</a>
+                  <a href="#" class="menu-link">Bags</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-element">
+              <a href="#"><img src="image/account.svg" alt="account" /></a>
+            </li>
+            <li class="nav-element">
+              <a href="#"><img src="image/basket.svg" alt="basket" /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="header-reg-box">
+      <div class="container">
+        <div class="header-reg-flex">
+          <h1 class="header-h1">REGISTRATION</h1>
+        </div>
+      </div>
+    </div>
+    <div class="registration-box">
+      <div class="container">
+        <div class="registration-flex">
+          <div class="reg-box">
+            <form action="#" id="form-registration">
+              <fieldset>
+                <legend class="leg-style">Your Name</legend>
+                <input
+                  type="text"
+                  id="firstName"
+                  placeholder="First Name"
+                  class="input-style"
+                  required
+                />
+                <input
+                  type="text"
+                  id="lastName"
+                  placeholder="Last Name"
+                  class="input-style input-margin"
+                  required
+                />
+              </fieldset>
+              <fieldset class="fieldset-margin">
+                <label for="male" class="lable-txt">
+                  <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="male"
+                    class="radio-style"
+                    checked
+                  />
+                  Male</label
+                >
+                <label for="female" class="lable-txt">
+                  <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                    class="radio-style"
+                  />
+                  Female</label
+                >
+              </fieldset>
+              <fieldset>
+                <legend class="leg-style">Login details</legend>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Email"
+                  class="input-style"
+                  required
+                />
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  class="input-style input-margin"
+                  required
+                />
+                <p class="password-comment">
+                  Please use 8 or more characters, with at least 1 number and a
+                  mixture of uppercase and lowercase letters
+                </p>
+              </fieldset>
+            </form>
+            <button type="submit" form="form-registration" class="button-join">
+              <p class="button-join-txt">JOIN NOW</p>
+            </button>
+          </div>
+          <div class="perks-box">
+            <h2 class="perks-style">LOYALTY HAS ITS PERKS</h2>
+            <p class="perks-style perks-txt">
+              Get in on the loyalty program where you can earn points and unlock
+              serious perks. Starting with these as soon as you join:
+            </p>
+            <ul class="perks-style perks-list">
+              <li class="perks-li">15% off welcome offer</li>
+              <li class="perks-li">
+                Free shipping, returns and exchanges on all orders
+              </li>
+              <li class="perks-li">$10 off a purchase on your birthday</li>
+              <li class="perks-li">Early access to products</li>
+              <li class="perks-li">Exclusive offers & rewards</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-flex">
+        <div class="container footer-top">
+          <figure class="figure-flex">
+            <img
+              src="/image/photo.svg"
+              alt="photo Bin Burhan"
+              class="figure-img"
+            />
+            <blockquote class="figure-blockquote">
+              “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+              pulvinar purus condimentum“
+            </blockquote>
+          </figure>
+          <div class="subscription-box">
+            <h2 class="subscription-h2">SUBSCRIBE</h2>
+            <h3 class="subscription-h3">FOR OUR NEWLETTER AND PROMOTION</h3>
+            <form action="#" class="subscription-form">
+              <input
+                type="email"
+                class="input-mail"
+                placeholder="Enter Your Email"
+              />
+              <button type="submit" class="button-subscribe">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container-min bottom-flex">
+            <p class="text-copyright">&copy 2021 Brand All Rights Reserved.</p>
+            <div class="media-box">
+              <a href="#" class="media-link">
+                <img
+                  src="/image/facebook.svg"
+                  alt="link to facebook"
+                  class="media-icon"
+                />
+              </a>
+              <a href="#" class="media-link">
+                <img
+                  src="/image/instagram.svg"
+                  alt="link to instagram"
+                  class="media-icon"
+                />
+              </a>
+              <a href="#" class="media-link">
+                <img
+                  src="/image/pinterest.svg"
+                  alt="link to pinterest"
+                  class="media-icon"
+                />
+              </a>
+              <a href="#" class="media-link">
+                <img
+                  src="/image/twitter.svg"
+                  alt="link to twitter"
+                  class="media-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
